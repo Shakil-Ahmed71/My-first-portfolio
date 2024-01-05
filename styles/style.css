@@ -1,6 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
 
 
+.primary-h1{
+    color: #151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+}
+.primary-p{
+    color: #737272;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 500;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -90,4 +105,9 @@ ul li{
     font-size: 16px;
     font-weight: 400;
     
+}
+
+.skill{
+    display: flex;
+    justify-content: center;
 }
