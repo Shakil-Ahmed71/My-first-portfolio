@@ -48,6 +48,7 @@
 
 
 /* start nav bar */
+
 nav{
     position: absolute;
     width: 100%;
@@ -56,6 +57,18 @@ nav{
     pointer-events: painted;
     
     
+}
+.my-name{
+    margin-right: 550px;
+    border: none;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px white,
+                1px 1px 2px rgb(0, 0, 0),
+                1px 1px 2px white,
+                1px 1px 2px rgb(0, 0, 0),
+                1px 1px 2px rgb(0, 0, 0);
 }
 nav>ul{
     display: flex;
@@ -66,9 +79,10 @@ nav>ul{
 nav>ul li{
     list-style: none;
     margin-right: 30px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     padding: 10px 15px ;
-    border-radius: 30px;
+    /* border-radius: 30px; */
+    border-bottom: 1px solid white;
 
 }
 nav>ul li a{
