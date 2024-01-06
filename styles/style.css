@@ -16,12 +16,71 @@
     font-weight: 500;
 }
 
+.primary-btn{
+    width: 140px;
+    height: 55px;
+    color: #005FAC;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 4px;
+    border: 0;
+   
+}
+.primary-btn:hover{
+    box-shadow: 1px 1px 10px rgb(116, 111, 101),
+                2px 2px 10px rgb(0, 183, 255),
+                3px 3px 10px rgb(3, 235, 252),
+                5px 5px 10px rgb(83, 82, 82),
+                6px 6px 10px rgb(82, 80, 80);
+}
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Tektur', sans-serif;
+    scroll-behavior: smooth;
 }
+
+
+/* start nav bar */
+nav{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+    pointer-events: painted;
+    
+    
+}
+nav>ul{
+    display: flex;
+    justify-content: right;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+nav>ul li{
+    list-style: none;
+    margin-right: 30px;
+    border: 1px solid white;
+    padding: 10px 15px ;
+    border-radius: 30px;
+
+}
+nav>ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* end nav bar */
+
+/* start header section */
+
 .header-container{
     position: relative;
     width: 100%;
@@ -50,19 +109,11 @@
     font-weight: 400;
     margin-bottom: 25px;
 }
-.primary-btn{
-    width: 140px;
-    height: 55px;
-    color: #005FAC;
-    text-align: center;
-    font-family: Work Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    border-radius: 4px;
-    border: 0;
-   
-}
+
+/* end header section */
+
+/* start failure section */
+
 .failures{
     position: relative;
     width: 80%;
@@ -104,6 +155,10 @@ ul li{
     font-weight: 400;   
 }
 
+/* end failure section */
+
+/* start plan section */
+
 .plan-hd{
     color: #151414;
     text-align: center;
@@ -128,6 +183,9 @@ ul li{
 .skill-img{
     width: 80px;
 }
+
+/* end Plan section */
+
 /* Start mindset section */
 .mindset-container{
     position: relative;
@@ -152,4 +210,99 @@ ul li{
 }
 .mindset-item >.primary-btn{
     margin-top: 20px;
+}
+/* end mind section */
+
+/* start footer section */
+.footer-container{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    background-color: #181717;
+    justify-content: space-around;
+}
+.title-hd1{
+    width: 480px;
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 20px;
+    justify-content: center;
+}
+
+
+.footer-name{
+    text-align: center;
+    margin-top: 70px;
+    text-shadow: 1px 1px 1px rgb(15, 14, 14),
+                1px 1px 2px rgb(5, 255, 138),
+                1px 1px 4px rgb(103, 255, 2),
+                1px 1px 2px rgb(255, 251, 1);
+}
+.title-hd1 p:not(.ph){
+    margin-top: 30px;
+    color: rgb(252, 252, 252);
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.title-hd1 :hover{
+    color: red;
+}
+.ph{
+    margin-top: 20px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.icons{
+    display: inline;
+    top: 30px;
+}
+.icons :hover{
+    transform: rotate(10deg) scale(1.10);
+}
+
+.label{
+    display: block;
+}
+
+.title-hd2{
+    width: 480px;
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 15px;
+}
+
+.title-hd2 :hover{
+    color: red;
+}
+
+input:not(.ft-btn){
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+input:hover{
+    box-shadow: 1px 1px 10px rgb(116, 111, 101),
+    -1px -1px 10px rgb(56, 183, 233);
+}
+.ft-btn{
+    width: 90px;
+    height: 40px;
+    margin: 30px 70px 30px 70px;
+    border-radius: 30px;
+    background-color: #048eff;
+    color: white;
+}
+.ft-btn:hover{
+    background-color: #181717;
+    color: rgb(253, 253, 255);
+}
+
+placeholder{
+    font-size: 20px;
 }

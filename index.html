@@ -8,8 +8,18 @@
 </head>
 <body>
     <header>
-        <!--header section-->
-        <div class="header-container">
+        <!--start nav bar-->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#failure">My Fauld</a></li>
+                <li><a href="#plane">My Plans</a></li>
+                <li><a href="#footer">Footer</a></li>
+            </ul>
+        </nav>
+        <!-- end nav bar -->
+        <!-- start header section-->
+        <div id="home" class="header-container">
             <div class="header-title">
                 <h3 class="header-name">All Thinks Are Possible If You believe</h3>
                 <p class="header-disc">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
@@ -17,8 +27,12 @@
             </div>
         </div>
     </header> 
+        <!-- end header section -->
+
     <main>
-        <section>
+
+        <!-- start failure section -->
+        <section id="failure">
             <div class="failures">
                 <img class="failure-img" src="images/person.png" alt="">
             
@@ -35,7 +49,10 @@
                 </div>
             </div>
         </section>
-        <section>
+        <!-- end failure section -->
+
+        <!-- start plan section -->
+        <section id="plane">
             <h1 class="plan-hd">My Plans</h1>
             <div class="plan-container">
                 <div class="skill">
@@ -61,8 +78,10 @@
             </div>
 
         </section>
+        <!-- end Plan section -->
+
         <!-- Start mindset section -->
-        <section>
+        <section id="mindset">
             <div class="mindset-container">
                 <div class="mindset-item">
                     <h1 class="mindset-title">Awlays keep a positive mindset</h1>
@@ -70,9 +89,41 @@
                 </div>
             </div>
         </section>
-
+        <!-- end mind section -->
     </main>
-    <footer>
+    <footer id="footer">
+        <!-- start footer section -->
+        <div class="footer-container">
+            <div class="title-hd1">
+                <h1 class="footer-name">Future</h1>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
+                <p class="ph">Email : info@gmail.com</p>
+                <p class="ph">Phone : 01500 00 00 00</p>
+                <div class="footer-icon">
+                    <div class="icons">
+                        <img title="Facebook" src="images/icons/fb.png" alt="">
+                    </div>
+                    <div class="icons">
+                        <img title="Twitter" src="images/icons/twitter.png" alt="">
+                    </div>
+                    <div class="icons">
+                        <img title="Youtuve" src="images/icons/youtube.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="title-hd2">
+                <h1 class="footer-name">Subscribe</h1>
+                <form action="#">
+                        <input type="text"  placeholder="Enter your name">
+                        <input type="email" name="email" id="email" placeholder="Enter your email adders">
+                        <input type="text" id="num" placeholder="Enter your number">
+                    <input class="ft-btn" type="reset" value="Reset">
+                    <input class="ft-btn" type="button" value="Submit">
+                </form>
+
+            </div>
+        </div>
 
     </footer>
 </body>
